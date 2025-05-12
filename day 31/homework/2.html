@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Comparison</title>
+</head>
+<body>
+
+    <h2>Enter a word:</h2>
+    <input type="text" id="userWord" placeholder="Enter a word">
+    <button onclick="compareWords()">Check Words</button>
+
+    <p id="result"></p>
+
+    <script>
+        // variable to store any word (could be any word of your choice)
+        const predefinedWord = "hello"; // Change this to your desired word
+
+        function compareWords() {
+            // Get the user's input
+            const userInput = document.getElementById("userWord").value;
+
+            // Check if both words are similar (case insensitive)
+            if (predefinedWord.toLowerCase() === userInput.toLowerCase()) {
+                document.getElementById("result").innerText = "Our words are similar!";
+            } else {
+                document.getElementById("result").innerText = "We have different words";
+            }
+        }
+    </script>
+
+</body>
+</html>

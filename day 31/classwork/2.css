@@ -1,0 +1,27 @@
+.photo1, .photo2 {
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+}
+
+.photo3, .photo4 {
+    border: 2px double yellow;
+    width: 200px;
+    height: 200px;
+}
+
+.p1, .p2, .p3 {
+    color: blue;
+    text-align: center;
+}
+
+.p4, .p5 {
+    color: green;
+    text-align: center;
+}
+
+h1, h2 {
+    border: 2px solid blue;
+    color: purple;
+    text-align: center;
+}

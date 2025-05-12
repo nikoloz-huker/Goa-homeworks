@@ -1,0 +1,6 @@
+age =int(input("please enter your age :"))
+height = float(input("please enter your height : "))
+name = input("please enter your name: ")
+print(age > 18)
+print("name = nikolozi")
+print(height > 1.80)

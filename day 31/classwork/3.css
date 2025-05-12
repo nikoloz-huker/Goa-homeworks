@@ -1,0 +1,27 @@
+/* პრიორიტეტების მიხედვით CSS Selectors:
+   1. Inline style
+   2. ID
+   3. Class
+   4. Element 
+*/
+
+/* Example styles to demonstrate priority: */
+
+/* Element Selector */
+p {
+    color: black;
+}
+
+/* Class Selector */
+.example-class {
+    color: green;
+}
+
+/* ID Selector */
+#example-id {
+    color: blue;
+}
+
+/* Inline style - highest priority (example usage in HTML):
+   <p style="color: red;">This text will be red regardless of other styles</p>
+*/

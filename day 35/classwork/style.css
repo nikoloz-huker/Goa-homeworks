@@ -1,0 +1,67 @@
+/* 1) კომენტარის სახით ახსენით რას ეწოდება Inline, Internal და External Css. დაწერეთ თქვენ რომელს ანიჭებთ უპირატესობას და რატომ.
+
+2) შექმენით ვებ-საიტი: დაამატეთ 3 ფოტო, 5 პარაგრაფი, 2 Heading-ი და 2 ღილაკი.
+
+ფოტოებიდან 2-ს მიანიჭეთ წითელი ფერის double ბორდერი და ზომა: 200 x 200. 
+ხოლო დრჩენილ 1 ფოტოს მიანიჭეთ იასამნისფერი solid ბორდერი და ზომა: 150 x 150. 
+
+საიტზე დამატებულ 3 პარაგრაფს მიეცით ცისფერი ფერი, 2-ს კი ნარინჯისფერი ფერი.ხუთივე პარაგრაფი გადაიტანეთ ცენტრში.
+
+ორივე Heading-ს მიეცით ლურჯი dotted ბორდერი, ტექსტის ფერი -- იისფერი და გადაიტანეთ ცენტრში.
+
+
+ღილაკები კი ინდივიდუალურად გასტილეთ. ამ ორ ღილაკს ჰქონდეს ერთმანეთისგან სხვადასხვა ფერი, ბორდერი და ზომა.
+
+(ამ დავალებების შესასრულებლად გამოიყენეთ id-ები და class-ები. ელემენტები გასტილეთ Exrernal CSS-ში.) */
+/* ფოტოები */
+#photo1, #photo2 {
+  width: 200px;
+  height: 200px;
+  border: 4px double red;
+  margin: 10px;
+}
+
+#photo3 {
+  width: 150px;
+  height: 150px;
+  border: 3px solid violet;
+  margin: 10px;
+}
+
+/* პარაგრაფები */
+.blue-text {
+  color: skyblue;
+  text-align: center;
+}
+
+.orange-text {
+  color: orange;
+  text-align: center;
+}
+
+/* Heading-ები */
+h1, h2 {
+  text-align: center;
+  color: purple;
+  border: 2px dotted blue;
+  padding: 10px;
+}
+
+/* ღილაკები */
+.button1 {
+  background-color: green;
+  color: white;
+  border: 2px solid darkgreen;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.button2 {
+  background-color: darkorange;
+  color: white;
+  border: 2px dashed brown;
+  padding: 12px 25px;
+  font-size: 18px;
+  margin: 10px;
+}
